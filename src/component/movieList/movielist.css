@@ -1,0 +1,14 @@
+/* * {
+
+    background-color: red;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none; 
+
+} */
+.container{
+    background-image: url("https://images.wallpapersden.com/image/download/netflix-dark_bGZraWaUmZqaraWkpJRobWllrWdma2U.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
