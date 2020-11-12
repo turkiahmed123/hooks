@@ -17,7 +17,7 @@ const AddMovie = (props) => {
   const toggle = () => setModal(!modal);
 
   return (
-    <div>
+    <div className="theadd">
       <Button color="secondary" className="addMovie" onClick={toggle}>
         Add Movie
       </Button>

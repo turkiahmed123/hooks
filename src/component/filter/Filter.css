@@ -1,0 +1,10 @@
+.flexbox input {
+    float: right;
+    margin-right: 10px;
+    margin-top: 6px;
+    height: 36px;
+    background: black;
+    color: white;
+    border: solid;
+   
+}

@@ -18,8 +18,10 @@ function App() {
 
   return (
     <div className="container">
-      <AddMovie handleAdd={handleAdd} />
       <Filter settextSearch={settextSearch} />
+      <AddMovie handleAdd={handleAdd} />
+
+      
       <MovieList
         textSearch={textSearch}
         movies={movies}
