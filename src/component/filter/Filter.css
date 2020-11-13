@@ -3,8 +3,13 @@
     margin-right: 10px;
     margin-top: 6px;
     height: 36px;
-    background: black;
-    color: white;
+    background: transparent;
+    color: beige;
     border: solid;
+    border-radius: 15px;
    
 }
+
+input::placeholder { 
+    color: white
+  }

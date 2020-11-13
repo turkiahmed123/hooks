@@ -6,7 +6,7 @@ function Filter({ settextSearch }) {
     <div class="flexbox">
       <input
         onChange={(e) => settextSearch(e.target.value)}
-        placeholder="Search..."
+        placeholder= "Search..."
       />
     </div>
   );

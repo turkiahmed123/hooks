@@ -3,14 +3,16 @@
   margin-right: 10px;
   margin-top: 6px;
   height: 36px;
-  background: black;
+  background: transparent;
   color: white;
   border: solid;
-
+  border-radius: 15px;
 }
-
-
 
 .theadd button:hover {
-    color: yellow
+  color: yellow;
 }
+ 
+
+
+  
