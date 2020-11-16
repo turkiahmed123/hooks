@@ -12,7 +12,8 @@
 .theadd button:hover {
   color: yellow;
 }
- 
 
-
-  
+form {
+  display: flex;
+  flex-direction: column;
+}
