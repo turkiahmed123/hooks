@@ -2,7 +2,7 @@ import React from "react";
 import "./moviecard.css";
 import Rate from '../Rate'
 import PropTypes from "prop-types";
-
+import {Link} from "react-router-dom"
 function MovieCard({ movie }) {
   return (
     <div className="cardMovie">
@@ -23,7 +23,7 @@ function MovieCard({ movie }) {
         </div>
 
         <div className="card_right_button">
-          <a href="#">WATCH TRAILER</a>
+         <Link to="/trailer">WATCH TRAILER</Link>
         </div>
 
 

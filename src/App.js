@@ -4,6 +4,8 @@ import { moviesData } from "./Constants/data";
 import MovieList from "./component/movieList/Movielist";
 import Filter from "./component/filter/Filter";
 import AddMovie from "./add/Add";
+import { Route, Switch } from "react-router-dom";
+import Description from "./component/Description";
 
 function App() {
   const [movies, setMovies] = useState(moviesData);
@@ -17,10 +19,15 @@ function App() {
 
   return (
     <div className="container">
-      <Filter settextSearch={settextSearch} />
-      <AddMovie handleAdd={handleAdd} />
-
-      <MovieList textSearch={textSearch} movies={movies} />
+      <Switch>
+        <Route exact path="/">
+          {" "}
+          <Filter settextSearch={settextSearch} />
+          <AddMovie handleAdd={handleAdd} />
+          <MovieList textSearch={textSearch} movies={movies} />
+        </Route>
+        <Route path="/trailer" component={Description} />
+      </Switch>
     </div>
   );
 }
